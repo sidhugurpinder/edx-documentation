@@ -33,6 +33,10 @@ steps.
 Specify the Minimum Credit-Eligible Grade
 ********************************************
 
+.. note::
+  To make sure that learners' grades are correct, grading for credit courses
+  must be complete before the course end date.
+
 In addition to setting the usual grade scale for your course, you indicate a
 specific grade that learners must receive to earn credit for your course.
 
