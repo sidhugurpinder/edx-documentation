@@ -23,9 +23,9 @@ Send Farewell Message
 As you prepare for the end of your course, you can send learners a :ref:`course
 farewell<Course Farewell and Certificates>` email message.
 
-****************************************
+*******************
 Assign Final Grades
-****************************************
+*******************
 
 To assign a final grade to each learner enrolled in a course, you generate
 grades after the course end date and time have passed. For more information,
@@ -44,9 +44,9 @@ on-demand certificates as soon as they have completed enough of the course
 with a high enough grade to qualify for a certificate.
 
 
-==========================================
-Generate Certificates for Typical Courses
-==========================================
+===================================================================
+Generate Certificates for Instructor-Paced and Self-Paced Courses
+===================================================================
 
 .. only:: Partners
 
