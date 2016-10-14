@@ -174,7 +174,7 @@ For step-by-step instructions for creating an open response assessment, see
 Prompts
 =======
 
-Each **prompt**, or question, that you want your learners to answer, appears
+Each prompt, or question, that you want your learners to answer appears
 near the top of the page, followed by a field where the learner enters a
 response. You can require your learners to enter text as a response, or you can
 allow your learners to both enter text and upload another file, such as an
@@ -276,19 +276,19 @@ edX, and are subject to change.
 Rubric
 =======
 
-Your assignment must include a **rubric** that you design. The same rubric is
+Your assignment must include a rubric that you design. The same rubric is
 used for all the types of assessments (self, peer, or staff). The person
 performing the assessment sees the rubric when she begins grading, and
 compares the submitted response to the rubric.
 
-Rubrics consist of *criteria* and *options*.
+Rubrics consist of criteria and options.
 
-* Each criterion has a *name*, a *prompt*, and one or more *options*.
+* Each criterion has a unique name, a prompt, and one or more options.
 
    * The name is a very short summary of the criterion, such as "Ideas" or
      "Content". Criterion names generally have just one word. Because the
-     system uses criterion names for identification, **the name for each
-     criterion must be unique.** Criterion names do not appear in the rubric
+     system uses criterion names for identification, the name for each
+     criterion must be unique. Criterion names do not appear in the rubric
      that learners see when they are completing peer assessments, but they do
      appear on the page that shows the learner's final grade.
 
@@ -299,7 +299,7 @@ Rubrics consist of *criteria* and *options*.
 
    * Options describe how well the response satisfies the criterion.
 
-* Each option has a *name*, an *explanation*, and a *point value*.
+* Each option has a name, an explanation, and a point value.
 
   .. image:: ../../../../shared/images/PA_Rubric_LMS.png
      :alt: Image of a rubric in the LMS with call-outs for the criterion prompt
@@ -375,7 +375,7 @@ For more information, see :ref:`PA Add Rubric`.
 Assessment Steps
 =================
 
-In your assignment, you also specify the **assessment steps**. You can set the
+In your assignment, you also specify the assessment steps. You can set the
 assignment to include some combination of the following steps.
 
 .. contents::
@@ -411,8 +411,8 @@ Learners review these responses and try to score them the way that you scored
 them.
 
 .. note:: If you include a learner training step, you must also include a peer
-   assessment step. The learner training step must come before any peer and self
-   assessment steps.
+   assessment step. The learner training step must come before any peer and
+   self assessment steps.
 
 In a learner training assessment, the **Learn to Assess Responses** step opens
 immediately after a learner submits a response. The learner sees one of the
@@ -555,9 +555,9 @@ peer assessments.
 Self Assessment Step
 *****************************
 
-In self assessment steps, the learner sees her own response followed by the rubric.
-As with peer assessments, the learner evaluates the response using the rubric,
-selecting an option for each criterion.
+In self assessment steps, the learner sees her own response followed by the
+rubric. As with peer assessments, the learner evaluates the response using the
+rubric, selecting an option for each criterion.
 
 If you include both peer and self assessments, edX recommends that you include
 the peer assessment before the self assessment.
@@ -672,8 +672,13 @@ assessors.
 To calculate the final score for the response, add the median scores that were
 given for each criterion, as follows.
 
-  **Ideas median (8/10) + Content median (8/10) + Grammar median (4/5) = final
-  score (20/25)**
+::
+
+    Ideas median   (8/10)
+  + Content median (8/10)
+  + Grammar median (4/5)
+  ------------------------
+    final score   (20/25)
 
 .. note:: Remember that final scores are calculated by criteria, not by
    individual assessor. Therefore, the score for the response is not the median
