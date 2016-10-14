@@ -1,8 +1,19 @@
 .. _SFD_ORA:
 
-##########################
-Open Response Assessments
-##########################
+##############
+Writing Essays
+##############
+
+Some courses include assignments that require written responses to questions
+that might not have simple or definitive answers. To score these essay style
+assignments, you might be asked to do one or more of the following.
+
+* Assess your own work.
+* Assess the essays written by other learners.
+* Receive an assessment from a member of the course team.
+
+Because these essay assignments have a flexible design and can include
+different assessment options, they are called open response assessments.
 
 This topic describes how to work with open response assessments in your edX
 course.
