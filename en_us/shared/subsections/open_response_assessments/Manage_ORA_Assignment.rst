@@ -198,44 +198,44 @@ To perform an override assessment for a particular learner, complete these steps
 
 .. _Remove a learner response from peer grading:
 
-************************************************
-Remove a Learner's Response from Peer Grading
-************************************************
+****************************
+Remove a Learner's Response
+****************************
 
 In a course that contains assignments with peer assessment steps, learners
 might alert you to vulgar, abusive, or otherwise inappropriate responses that
 they have seen while performing peer assessments. In such a situation you can
-:ref:`locate<Locate a specific ORA submission>` and remove the submission.
-Doing so removes the inappropriate response from peer assessments so that it
-is no longer shown to other learners.
+:ref:`locate<Locate a specific ORA submission>` and remove the response.
+Doing so removes the inappropriate response so that it is no longer shown to
+other learners for peer assessment.
 
-.. note:: Removing a learner's submission is an irreversible action.
+.. note:: Removing a learner's response is an irreversible action.
 
-When you remove an inappropriate submission, the response is immediately taken
-out of the pool of submissions available for peer assessment. If the
-inappropriate response has already been sent to other learners for peer
-assessment, it is also removed from their queue. However, if any learner has
-already graded the inappropriate response, it is counted as one of the
-submissions they have graded.
+When you remove a response, the response is immediately taken out of the pool
+of submissions available for peer assessment. If the inappropriate response has
+already been sent to other learners for peer assessment, it is also removed
+from their queues. However, if any learner has already graded the inappropriate
+response, it is counted as one of the submissions they have graded.
 
-.. note:: After you remove an inappropriate response from peer assessment, you
-   decide whether the learner who submitted that response is allowed to submit a
-   replacement response. If you do not want to allow the learner to submit a
-   replacement response, you do not need to take any additional action. The
-   learner receives a grade of zero for the entire submission. To allow the
-   learner to resubmit a response for a cancelled submission, you must delete
-   the learner's state for the problem. For more information, see
+.. note:: After you remove an inappropriate response, you can decide whether
+   the learner who submitted that response is allowed to submit a replacement
+   response. If you do not want to allow the learner to submit a replacement
+   response, you do not need to take any additional action. The learner
+   receives a grade of zero for the entire submission. To allow the learner to
+   resubmit a response for a cancelled submission, you must delete the
+   learner's state for the problem. For more information, see
    :ref:`delete_state`.
 
-To remove a submission from peer assessment, complete these steps.
+To remove a submitted response, follow these steps.
 
 #. Identify the learner who submitted the inappropriate response by following
    the steps in the :ref:`Locate a specific ORA submission` topic.
 
-#. In the course, go to the ORA assignment that contains the submission you want
-   to remove.
+#. In the course, go to the ORA assignment that contains the submission you
+   want to remove.
 
-#. Scroll to the bottom of the problem, then select **Manage Individual Learners**.
+#. Scroll to the end of the problem, and then select **Manage Individual
+   Learners**.
 
 #. Enter the learner's username or email, and select **Submit**.
 
@@ -248,36 +248,37 @@ To remove a submission from peer assessment, complete these steps.
 #. Enter a comment to explain the removal. This comment appears to the learner
    when she views her response in the open response assessment problem.
 
-.. image:: ../../../../shared/images/ORA_RemoveSubmission.png
-    :alt: Dialog allowing comments to be entered when removing a learner
+   .. image:: ../../../../shared/images/ORA_RemoveSubmission.png
+     :alt: Dialog allowing comments to be entered when removing a learner
        submission.
 
-6. Select **Remove submission**.
+#. Select **Remove submission**.
 
    The inappropriate submission is removed from peer assessment. Removed
    submissions are also removed from the list of Top Responses if they were
    previously listed.
+
+#. Optionally, delete the learner's state for the problem. This step allows the
+   learner to submit another response. For more information, see
+   :ref:`delete_state`.
 
 When you access this learner's information again by selecting **Manage
 Individual Learners**, instead of the response, you see a note showing the date
 and time that the submission was removed, and the comments that you entered.
 
 .. image:: ../../../../shared/images/ORA_StaffViewCancelledResponse.png
-   :alt: In "Manage Individual Learners", the date, time and comment for removal
+   :alt: In Manage Individual Learners, the date, time and comment for removal
     of a learner response is shown instead of the original response.
 
-
 When the learner views the assignment in the course, she sees that all steps in
-the assignment have a status of "Cancelled". Under **Your Response**, instead of
-the text of their response, she sees the date and time that their response was
-cancelled, and the comments relating to the removal of their submission.
-
+the assignment have a status of "Cancelled". Under **Your Response**, instead
+of the text of their response, she sees the date and time that their response
+was cancelled, and the comments relating to the removal of their submission.
 
 .. image:: ../../../../shared/images/ORA_LearnerViewCancelledResponse.png
    :alt: In a learner's view of the assignment, all steps have a status of
     Cancelled, and the learner sees the date, time and comment given for the
     removal of his submission.
-
 
 .. _Locate a specific ORA submission:
 
